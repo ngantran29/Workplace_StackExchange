@@ -1,6 +1,5 @@
-XML Data Wrangling using StackExchange Workplace Forum
+Getting Data of the StackExchange Workplace Forum
 ================
-
 Part 1. Parsing XML files and Attributes
 ========================================
 
@@ -54,7 +53,6 @@ for(i in 1:length(attributePath)){
   }
 }
 ```
-
 Part 2. Cleaning Data for analysis
 ==================================
 
