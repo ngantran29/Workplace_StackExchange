@@ -22,7 +22,8 @@ ggplot(words_counts, aes(x = reorder(word, n), y = n, fill = n)) +
   coord_flip()
 ```
 
-![](TermFrequency_Sentiment_files/figure-markdown_github/wordFreq-1.png) However, although we can find the most frequently used words are very relatabe to the Workplace topic, it's also very general words. We move on to look at the bigrams frequency for more specific topical terms. The results suggest the majority of users in the software industry, with many concerns about the job application process.
+![](TermFrequency_Sentiment_files/figure-markdown_github/wordFreq-1.png)   
+However, although we can find the most frequently used words are very relatabe to the Workplace topic, it's also very general words. We move on to look at the bigrams frequency for more specific topical terms. The results suggest the majority of users in the software industry, with many concerns about the job application process.
 
 ``` r
 #Most common pairs of words in all posts
@@ -50,7 +51,8 @@ ggplot(bigrams_united, aes(x = reorder(bigram, n), y = n, fill = n)) +
   coord_flip()
 ```
 
-![](TermFrequency_Sentiment_files/figure-markdown_github/bigramFreq-1.png) We get sentiment in a (quick and dirty) way using the sentiment lexicon Bing and AFINN.
+![](TermFrequency_Sentiment_files/figure-markdown_github/bigramFreq-1.png)   
+We get sentiment in a (quick and dirty) way using the sentiment lexicon Bing and AFINN.
 
 ``` r
 library("syuzhet")
