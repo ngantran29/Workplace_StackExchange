@@ -12,7 +12,8 @@ We look into the most frequently used words as well as how the sentiment of the 
 [Terms Frequency and Sentiment](https://github.com/ngantran29/Workplace_StackExchange/blob/master/TermFrequency_Sentiment.md)   
 [Shiny App](https://ngantran.shinyapps.io/sentimenttime/)   
 
-### Part 3 (to be updated)
-How's the interaction can affect user commitment, including how long they stay active and posting on the forum.   
-[Survival Analysis]   
-[User Commitment Analysis]   
+### Part 3  
+Survival Analysis and Hurdle Model  
+[R Script](https://github.com/ngantran29/Workplace_StackExchange/blob/master/Survival_Hurdle_Model.R)   
+[Graphs and Analysis](https://github.com/ngantran29/Workplace_StackExchange/blob/master/Survival_Hurdle_Model.md)
+
