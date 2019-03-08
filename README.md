@@ -17,3 +17,6 @@ Survival Analysis and Hurdle Model
 [R Script](https://github.com/ngantran29/Workplace_StackExchange/blob/master/Survival_Hurdle_Model.R)   
 [Graphs and Analysis](https://github.com/ngantran29/Workplace_StackExchange/blob/master/Survival_Hurdle_Model.md)
 
+### Part 4 
+Topic Modelling using latent Dirichlet allocation (LDA) to discover possible topics mentioned in both questions and answers on the forum.    
+[Topic Modelling](https://github.com/ngantran29/Workplace_StackExchange/blob/master/TopicModelling.md)
