@@ -41,8 +41,8 @@ allpost_sparse <- tidy_allpost %>%
 Tuning Model
 ------------
 
-Optimal number of topics was chosen using evaluation of four metrics: "Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014". With more than 70000 posts, fitting model with K value from 2 to 100 took quite some time and the process was actually splited and run many times.
-
+Optimal number of topics was chosen using evaluation of four metrics: "Griffiths2004", "CaoJuan2009", "Arun2010", "Deveaud2014". With more than 70000 posts, fitting model with K value from 2 to 100 took quite some time and the process was actually splited and run many times.   
+![Tuning](findk_5.png)   
 Most metrics suggests the number of topic should be around 10 and 20, always with a tradeoff for each decision. After running different models and evaluate the results, the final model was fitted with K = 12.
 
 Fitting model
